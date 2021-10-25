@@ -1,0 +1,12 @@
+{
+  "name": "renovate-test",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "modules/*"
+  ],
+  "devDependencies": {
+    "lodash": "^4.17.20"
+  }
+}

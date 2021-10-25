@@ -1,0 +1,17 @@
+{
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": null
+  },
+  "packageRules": [
+    {
+      "matchPackagePatterns": [".*"],
+      "enabled": false
+    },
+    {
+      "groupName": "a deps",
+      "matchPaths": ["modules/*/package.json"],
+      "enabled": true
+    }
+  ]
+}
